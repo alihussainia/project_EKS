@@ -9,8 +9,8 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
-    Default: jwt-api-test
-    MinLength: 1
+    Default: simple-jwt-api
+    MinLength: 1s
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
 
